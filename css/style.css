@@ -1,0 +1,134 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #202020;
+    color:#e1e1e1;
+    font-family: 'Roboto Mono', monospace;   
+}
+footer{
+    margin-top: 3rem;
+    text-align: right;
+}
+.exp{
+    display: flex;
+}
+.formulario{
+    /* padding: 50px 50px 0;
+    margin-bottom: 50px; */
+    width: 30em;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.titulo{
+    text-align: center;
+    color:#e1e1e1;
+}
+.descripcion{
+    text-align: left;
+}
+.subir{
+    width: 150px;
+    margin-top: 80px;
+    top: 50%;
+}
+
+label{
+    margin-bottom: 0.8rem;
+    display: block;
+}
+input, textarea{
+    margin-bottom: 20px;
+    padding: 0.4rem;
+    width: 100%;
+    border: 2px solid #7e7e7e;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(250, 109, 255);
+}
+select{
+    margin-bottom: 20px;
+}
+button{
+    margin-top: 2rem;
+}
+b, td{
+    color:#e1e1e1;
+}
+hr{
+	background-color: #fff;
+	border-top: 2px dashed #000000;
+    color:#e1e1e1;
+}
+h1, h2{
+    color: aliceblue;
+    text-align: center;
+    font-style: bold;
+}
+table{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-spacing: 0 15px;
+    padding: 1rem;
+}
+tr{
+    margin: 20px;
+}
+/* p.formulario{
+    text-align: center; 
+} */
+a{
+    margin: 5% 0;
+    color:#e1e1e1;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px solid #e1e1e1;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(250, 109, 255);
+    padding: 5px;
+    &:hover{
+        color: #8ae234;
+        transition: 0.3s;
+    }
+}
+li{
+    padding: 10px; 
+    &:hover{
+        color: #8cb4ff;
+        transition: 0.3s;
+    }
+}
+li::marker{
+    content: "=>"
+}
+th, td{
+    width: 300px;
+}
+ul{
+    margin-bottom: 1rem;
+}
+button{
+    margin: 5% 0;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #7e7e7e;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(250, 109, 255);
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover{
+        color: #e1e1e1;
+        background-color: #202020;
+        transition: 0.3s;
+    }
+}
+#contacto:hover{
+    color: #8ae234;
+    transition: 0.3s;
+    cursor: pointer;
+}

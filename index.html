@@ -3,9 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet"> -->
+    <!-- Fin fuentes -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Marcos Moreira Portfolio JaP</title>
 </head>
 <body>
+
+    <h1 class="titulo" id="arriba">Marcos Moreira</h1>
+    <div>
+        <p class="descripcion">Soy un aspirante a desarrollador de software con una gran pasión por programar,<br>
+                            con ganas de seguir aprendiendo y desarrollándome en el ámbito IT.
+        </p>
+        
+    </div>
+
+    <hr>
+    <div class="exp">
+        <ul>
+            <li><a href="#experiencia">Experiencia Profesional</a></li>
+            <li><a href="#habilidades">Habilidades y Conocimientos</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#perfiles">Perfiles Sociales</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+       
+    </div>
     
+    <h2 id="experiencia">Experiencia profesional</h2>
+
+    <table>
+        <tr>
+            <th>Empresa/Organización</th>
+            <th>Cargo</th>
+            <th>Localización</th>
+            <th>Desde-Hasta</th>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>Ayudante de electricista</td>
+            <td>Montevideo (Uruguay)</td>
+            <td>Marzo 2015- Noviembre 2018</td>
+        </tr>
+        <tr>
+            <td>X Weldings</td>
+            <td>Peón de herrero</td>
+            <td>Montevideo (Uruguay)</td>
+            <td>Marzo 2020 - Abril 2022</td>
+        </tr>
+        <tr>
+            <td>Montecode</td>
+            <td>Programador Low Code</td>
+            <td>Montevideo (Uruguay)</td>
+            <td>Junio 2022 - Diciembre 2022</td>
+        </tr>
+       
+    </table>
+
+    <hr>
+
+    <h2 id="habilidades">Habilidades y Conocimientos</h2>
+
+    <ul>
+        <li><b>Desarrollo web:</b> HTML5, CSS, JavaScript, MySQL.</li>
+        <li><b>Desarrollo Low Code:</b> Power Platform - Power Apps, Power Automate.</li>
+        <!-- <li><b>Gestion:</b> SCRUM, gestion de comunidades y organización de eventos, gestión de equipos, etc.</li>
+        <li><b>Emprendimiento:</b> startups, Lean startup,etc</li>
+        <li><b>Aplicaciones moviles:</b> Phonegrap</li>
+        <li><b>Marketing:</b> email marketing, redes sociales, gamificación,nurture marketing, led scoring, etc </li>
+        <li><b>Sistemas de informacion geografica (GIS):</b> ArcGIS APIs.</li> -->
+    </ul>
+
+    <hr>
+
+    <h2 id="educacion">Educación</h2>
+
+    <table>
+        <tr>
+            <th>Titulo</th>
+            <th>Entidad</th>
+            <th>Promoción</th>
+        </tr>
+        <tr>
+            <td>Desarrollo Web</td>
+            <td>Plan Ceibal(JaP)</td>
+            <td>Cursando</td>
+        </tr>
+        <tr>
+            <td>Bachillerato Tecnológico</td>
+            <td>ESI Buceo</td>
+            <td>2016</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2 id="perfiles">Perfiles Sociales</h2>
+
+    <p>También puedes encontrarme en:</p>
+
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Marcos Moreira</a></li>
+        <li><a href="https://www.github.com/Mangua96" target="_blank">GitHub</a></li>
+        <li><a href="https://twitter.com/Marcos7snm" target="_blank">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/marcos-moreira-sd/" target="_blank">Linkedin</a></li>
+    </ul>
+
+    <img class="pikachu" src="/img/pokemon.gif" height="150px" width="200px" alt="pikapika">
+
+    <hr>
+
+    <h2 id="contacto">Contactar</h2>
+
+    <form class="formulario">
+
+        <label for="para">Tu mail:</label>
+        <input type="email" name="para" placeholder="correo@correo.com"></textarea>
+
+        <label for="tematica">Temática:</label>
+
+            <select id="- Elige un tema -">
+                <option  value="" selected disabled>--Elige un tema--</option>
+                <option value="consulta">Consulta</option>
+                <option value="propuesta">Propuesta</option>
+                <option value="reporte">Reporte</option>
+                <option value="otro">Otro</option>
+            </select>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" name="asunto"></textarea>
+        
+        <label for="comentario">Comentario:</label>
+        <textarea name="comentario"></textarea>
+
+        <button type="reset">Enviar!</button>
+
+    </form>
+
+    <div class="subir">
+        <a  href="#arriba">Ir arriba</a>
+    </div>
+    
+    <footer>Marcos Moreira JaP :D</footer>
+
 </body>
 </html>
